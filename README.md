@@ -17,15 +17,28 @@ peizhi.xlsx是命令文件，内容是这样：
 
 所依赖的库有如下：
 import logging
+
 import win32gui, win32con, win32com.client
+
 import pygetwindow as gw
+
 import time
+
 import win32com.client as win32
+
 import numpy as np
+
 import cv2
+
 import os
+
 from mss import mss
+
 import pyautogui
+
 import pyperclip
+
 import keyboard
+
 from datetime import datetime
+
